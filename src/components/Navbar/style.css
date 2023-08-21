@@ -1,0 +1,26 @@
+nav {
+    background-color: #fcfc30;
+    padding: 15px;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+nav a {
+    color: #465eff;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+img {
+    height: 30px;
+    width: 40px;
+}
+
+#help {
+    width: 120%;
+    height: 20px;
+    background-color: rgb(238, 239, 239);
+    border-radius: 5px;
+    padding: 3px;
+    border-style: none;
+}
