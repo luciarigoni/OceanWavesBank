@@ -12,12 +12,14 @@ function Conta () {
     const handleSubmit = (e) => {
         e.preventDefault();
         console.log('submit', {email, password});
+        login(email, password);
     }
 
     return (
         <div id="login">
             <div className='wrapper'>
             <h1 className="title">Faça seu login</h1>
+            <p>{String(authenticated)}</p>
             <form className="form" onSubmit={handleSubmit}>
                 <div className="field">
                     <input type="email" name="email" id="email" value={email} onChange={(e) => setEmail(e.target.value)} placeholder='Digite seu e-mail'></input>

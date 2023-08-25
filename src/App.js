@@ -18,7 +18,7 @@ function App() {
   const [user, setUser] = useState(null);
 
   const login = (email, password) => {
-    console.log('login', {email, password});
+    console.log('login auth', {email, password});
     setUser({id: '123', email})
   }
 
